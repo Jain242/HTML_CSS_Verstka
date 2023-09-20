@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;   
+ }
+
+
+
+.header{
+    margin: 38px 55px 38px 55px;
+}
+a{  color: var(--White, #030303);
+    text-decoration: none;
+    
+}
+a:hover {
+    color: rgb(98, 222, 160);
+}
+
+html{
+    width: 1440px;
+    height: 1024px;
+    flex-shrink: 0;     
+}
+
+body{
+    display: block; 
+    background-image:url('../img/Travel_Time.png');
+    background-repeat: no-repeat;
+}
+
+.punkt{
+    
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    list-style-type: none;
+    padding: 50px;
+    display: inline;
+}
+
+.h1{
+    margin: 100px 451px 10px 412px;
+    color: var(--White, #ffffff);
+    font-family: Poppins;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p{
+    margin: 20px 365px 10px 326px;
+    color: var(--White, #ffffff);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+}
+
+.batton{
+    display: flex;
+    width: 191px;
+    padding: 16px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #00B43D;
+    background: #00B43D;
+    margin: 300px 664px 179px 605px;
+}
+
