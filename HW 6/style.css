@@ -734,3 +734,28 @@ summary::-webkit-details-marker {
   -ms-flex-align: center;
   align-items: center;
 }
+
+
+@media  (min-width:0px) and (max-width:765px) {
+  .promo__img{
+    display: none;
+  }
+
+  .promo__content{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin: auto;
+    gap: 30%;
+  }
+
+  .sale{
+    flex-direction:column;
+    display: flex;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 64px;
+    padding-bottom: 96px;
+
+  }
+}
